@@ -4,11 +4,11 @@ var cart = [];
 function getCart() {
   return cart;
 }
- 	 
- function setCart(newCart) {	
+
+ function setCart(newCart) {
   cart = newCart;
- }	 
- 	 
+ }
+
 function addToCart(item) {
   var price = Math.floor(Math.random() * 100) + 1;
   var item_object = {};
@@ -46,10 +46,10 @@ function removeFromCart(item) {
   return cart
 }
 
- function total() {	 
+ function total() {
    let t = 0
    return t
- }	 
+ }
 
 function placeOrder(creditCard) {
   if (!creditCard) {
